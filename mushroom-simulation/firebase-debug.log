@@ -1,0 +1,55 @@
+[debug] [2025-01-07T05:57:21.079Z] ----------------------------------------------------------------------
+[debug] [2025-01-07T05:57:21.081Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yrgou\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-01-07T05:57:21.081Z] CLI Version:   13.29.1
+[debug] [2025-01-07T05:57:21.082Z] Platform:      win32
+[debug] [2025-01-07T05:57:21.082Z] Node Version:  v22.12.0
+[debug] [2025-01-07T05:57:21.082Z] Time:          Mon Jan 06 2025 23:57:21 GMT-0600 (Central Standard Time)
+[debug] [2025-01-07T05:57:21.082Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-07T05:57:21.181Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-07T05:57:21.181Z] > authorizing via signed-in user (yieldingyak@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-01-07T05:57:21.190Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-01-07T05:57:21.190Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-01-07T05:57:21.190Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-01-07T05:57:21.196Z] [hub] writing locator at C:\Users\yrgou\AppData\Local\Temp\hub-ap-research-ff300.json
+[debug] [2025-01-07T05:57:21.212Z] Checked if tokens are valid: true, expires at: 1736232980175
+[debug] [2025-01-07T05:57:21.212Z] Checked if tokens are valid: true, expires at: 1736232980175
+[debug] [2025-01-07T05:57:21.213Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ap-research-ff300/sites 
+[debug] [2025-01-07T05:57:21.544Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ap-research-ff300/sites 200
+[debug] [2025-01-07T05:57:21.544Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ap-research-ff300/sites {"sites":[{"name":"projects/ap-research-ff300/sites/ap-research-ff300","defaultUrl":"https://ap-research-ff300.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-01-07T05:57:21.544Z] Checked if tokens are valid: true, expires at: 1736232980175
+[debug] [2025-01-07T05:57:21.544Z] Checked if tokens are valid: true, expires at: 1736232980175
+[debug] [2025-01-07T05:57:21.544Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ap-research-ff300/webApps/-/config [none]
+[debug] [2025-01-07T05:57:21.929Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ap-research-ff300/webApps/-/config 200
+[debug] [2025-01-07T05:57:21.929Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ap-research-ff300/webApps/-/config {"projectId":"ap-research-ff300","appId":"1:1034074021312:web:9629b87d5364287fe47c25","storageBucket":"ap-research-ff300.firebasestorage.app","apiKey":"AIzaSyCmimep1Am5T6Ywn1ho0bD3ipAEbc0h8eE","authDomain":"ap-research-ff300.firebaseapp.com","messagingSenderId":"1034074021312","measurementId":"G-QWG4TV2C4D"}
+[debug] [2025-01-07T05:57:21.938Z] Checked if tokens are valid: true, expires at: 1736232980175
+[debug] [2025-01-07T05:57:21.938Z] Checked if tokens are valid: true, expires at: 1736232980175
+[debug] [2025-01-07T05:57:21.938Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ap-research-ff300 [none]
+[debug] [2025-01-07T05:57:22.089Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ap-research-ff300 200
+[debug] [2025-01-07T05:57:22.089Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ap-research-ff300 {"projectId":"ap-research-ff300","projectNumber":"1034074021312","displayName":"AP Research","name":"projects/ap-research-ff300","resources":{"hostingSite":"ap-research-ff300"},"state":"ACTIVE","etag":"1_d19a421a-753a-4776-ae75-afdbe93cedc6"}
+[info] i  hosting[ap-research-ff300]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[ap-research-ff300]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-01-07T05:57:22.132Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED ::1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 337 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] \"GET /static/css/main.e6c13ad2.css HTTP/1.1\" 200 337 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] "GET /static/js/main.ec2dfdbe.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] \"GET /static/js/main.ec2dfdbe.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jan/2025:05:57:40 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
