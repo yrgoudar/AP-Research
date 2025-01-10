@@ -8,10 +8,10 @@ While significant research has been conducted on human-AI interactions, there is
 **What are the best techniques that can be implemented in the field of human-AI interactions to appropriately adjust human trust and improve decision-making abilities and performance for teens in high-risk scenarios?**
 
 ## About the Project
-This project features a web-based platform built with **React** and **Node.js** to simulate a high-risk decision-making scenario and collect participant responses. The primary task is a mushroom-picking simulation, adapted from the methodologies described by [Leichtmann et al. (2023)](https://doi.org/10.1016/j.chb.2022.107539). 
+This project features a web-based platform built with **React** and **Node.js** to simulate a high-risk decision-making scenario and collect participant responses. The primary task is a mushroom-picking simulation, adapted from the methodologies described by [Leichtmann et al. (2023)](https://doi.org/10.1016/j.chb.2022.107539). A Convolutional Neural Network was built to classify mushroom images as poisonous or edible based on various Kaggle datasets.
 
 Participants are randomly assigned to one of eight experimental groups based on combinations of the three study factors. The platform dynamically customizes the simulation experience for each participant by:
-- Presenting **AI recommendations** with or without explanations.
+- Presenting **AI recommendations** with or without explanations. Explanations were presented visually, utilizing a SmoothGrad saliency map, a technique that highlights regions of input images most relevant to the AI's decision.
 - Showing **peer influence cues** based on group conditions.
 - Providing **personality-specific feedback** using pre-task survey results from the **Big Five Personality Traits Model**.
 
